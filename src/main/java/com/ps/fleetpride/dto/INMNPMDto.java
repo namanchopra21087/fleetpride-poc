@@ -1,0 +1,94 @@
+package com.ps.fleetpride.dto;
+
+import com.ps.fleetpride.intfc.Cacheable;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
+import java.math.BigDecimal;
+import java.util.Date;
+
+@Data
+@NoArgsConstructor
+public class INMNPMDto implements Serializable, Cacheable {
+    private long id;
+    private BigDecimal npcompy;
+    private BigDecimal nppool;
+    private String nppartno;
+    private String npdsppart;
+    private String npitype;
+    private String npsortno;
+    private String npvendcode;
+    private String npsubvc;
+    private String npinvclass;
+    private String npcat;
+    private String nptrackcat;
+    private String npidesc;
+    private String npdesclck;
+    private BigDecimal npilist;
+    private BigDecimal npicost;
+    private String npwhseum;
+    private BigDecimal npwhsepack;
+    private String npxferum;
+    private BigDecimal npxferpack;
+    private String npslsum;
+    private BigDecimal npslspack;
+    private BigDecimal npvendor;
+    private BigDecimal npweight;
+    private String npvendret;
+    private String npcustret;
+    private BigDecimal npcorepool;
+    private String npcorepart;
+    private BigDecimal npiprice5;
+    private Date npprc5chg;
+    private BigDecimal nppopinx;
+    private BigDecimal npprodln;
+    private String nplppart;
+    private String npglinfo;
+    private String nppkgcode;
+    private String npvtprodc;
+    private String npcostcode;
+    private String npserlflag;
+    private String npsupppart;
+    private BigDecimal npjobprice;
+    private String npprodesc;
+    private BigDecimal npcprodl;
+    private String npifrtattr;
+    private String npnewpart;
+    private String npvprdgrp;
+    private String npsource;
+    private String nppvtbrand;
+    private String npcountry;
+    private String nphazmat;
+    private String npunspsc;
+    private String npvmrs;
+    private BigDecimal npjobqty;
+    private String npprcgrp;
+    private String npsharimag;
+    private String npsalenote;
+    private BigDecimal nppartidx;
+    private BigDecimal nplength;
+    private BigDecimal npwidth;
+    private BigDecimal npdepth;
+    private BigDecimal npslva;
+    private BigDecimal npslvb;
+    private BigDecimal npslvc;
+    private BigDecimal npslvdd;
+    private Date npcleandt;
+    private String npupccode;
+    private String npgtin;
+    private BigDecimal npurchfct;
+    private BigDecimal npshippack;
+    private BigDecimal npiprice1;
+    private BigDecimal npiprice2;
+    private BigDecimal npiprice3;
+    private BigDecimal npiprice4;
+    private String npmtrx;
+    private String npdftscc;
+    private String nprevwid;
+    private Date nprevwdt;
+    private String nplstchgs;
+    private Date nplstchgd;
+    private String npbrandcd;
+
+}
